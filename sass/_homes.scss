@@ -51,8 +51,8 @@
   }
 
   &__location,
-  &___rooms {
-    margin-top: 2.5rem;
+  &__rooms {
+      margin-top: 2.5rem;
   }
 
   &__location,
@@ -66,15 +66,15 @@
     align-items: center;
 
     svg {
-      fill: $color-primary;
-      height: 2rem;
-      width: 2rem;
-      margin-right: 1rem;
+        fill: $color-primary;
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1rem;
     }
   }
 
-
   &__btn {
     grid-column: 1 / -1;
+    text-align: center;
   }
 }
