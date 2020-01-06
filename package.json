@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "description": "Nexter webpage",
+  "description": "Real Estate Site",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server --browser=firefox",
+    "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
@@ -20,7 +20,7 @@
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1"
   },
-  "name": "nexter",
+  "name": "Real Estate",
   "dependencies": {
     "prettier": "^1.19.1"
   }

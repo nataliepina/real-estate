@@ -1,5 +1,5 @@
 .realtors {
-  background-color: $color-secondary;
+  background-color: $color-primary-dark;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
 
@@ -8,6 +8,10 @@
   justify-content: center;
   grid-row-gap: 2rem;
   justify-items: center;
+
+  .heading-3 {
+    color: $color-grey-light-1;
+  }
 
   @media only screen and (max-width: $bp-medium) {
     grid-column: 1 / -1;
