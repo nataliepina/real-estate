@@ -1,2 +1,1 @@
-
-# real-estate-site
+# Sample Real Estate Site
