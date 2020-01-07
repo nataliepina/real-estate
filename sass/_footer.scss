@@ -1,8 +1,14 @@
 .footer {
   background-color: $color-grey-light-1;
   grid-column: full-start / full-end;
-  padding: 8rem;
+  padding: 4rem;
   border-top: 2px solid $color-primary;
+
+  &__img {
+    height: 13em;
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 .nav {
@@ -42,5 +48,5 @@
   margin-right: auto;
   margin-left: auto;
   width: 70%;
-  margin-bottom: -6rem;
+  margin-bottom: -4rem;
 }

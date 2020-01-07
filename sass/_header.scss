@@ -1,7 +1,7 @@
 .header {
   background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(rgba($color-grey-light-1, .6), rgba($color-grey-light-1, .7)), url(../img/hero.jpg);
+  background-image: linear-gradient(rgba($color-grey-light-1, .4), rgba($color-grey-light-1, .7)), url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -23,7 +23,7 @@
 
 
   &__logo {
-    height: 3rem;
+    height: 7rem;
     justify-self: center;
   }
 
